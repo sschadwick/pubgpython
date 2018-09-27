@@ -6,7 +6,9 @@ This code is an example and was tested successfully in test environments.
 
 For any doubt, improvements and "how to use", follow me in my discord server. 
 
-Discord: https://discord.gg/waddp7p
+PUBG Official API Documentation: https://documentation.playbattlegrounds.com/en/introduction.html
+
+My Discord Server: https://discord.gg/waddp7p
 
 Linkedin: https://www.linkedin.com/in/jacques-jacob-mba-18279515/
 
