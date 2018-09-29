@@ -1,4 +1,4 @@
-# pubgapipython
+# pubgpython
 
 Python Application with Discord API and PUBG Official API to get players infos and add data into MYSQL database to rank players in my Discord Private Channel.
 
