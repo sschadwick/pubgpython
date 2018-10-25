@@ -17,7 +17,7 @@ async def on_message(message):
     if message.content.lower().startswith('!pubg'):
       try:
         cont = str(message.content[6:]).strip(' ')
-        api_key = "API_TOKEN"
+        api_key = "API_KEY_PUBG"
         header = {
             "Authorization": "Bearer {}".format(api_key),
             "Accept": "application/vnd.api+json"
@@ -214,8 +214,8 @@ async def on_message(message):
 
         ######### CONEXAO COM O BANCO DE DADOS MYSQL ##############
 
-        cnx = mysql.connector.connect(user='USER', database='DATABASE', port='3306', host='IP',
-                                      password='PASSWORD')
+        cnx = mysql.connector.connect(user='userdb', database='pubg_discord_db', port='3306', host='db4free.net',
+                                      password='password')
 
         cursor = cnx.cursor()
 
@@ -243,4 +243,4 @@ async def on_message(message):
           await client.send_message(message.channel, "Não foi possivel encontrar este jogador! Verifique se o "
                                                      "NickName esta correto!")
 
-client.run('DISCORD_TOKEN')
+client.run('discord_token')
